@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.board-container {
+    margin: 30px;
+}
+
+.board-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: aquamarine;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: #fff;
+    margin-top: 20px;
+}
